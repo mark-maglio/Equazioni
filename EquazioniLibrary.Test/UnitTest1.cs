@@ -15,13 +15,5 @@ namespace EquazioniLibrary.Test
             bool risposta = Equazioni.Determinata(a, b);
             Assert.AreEqual(risposta_aspettata, risposta);
         }
-        public void TestMethod()
-        {
-            double a = 3;
-            double b = 4;
-            bool risposta_aspettata = true;
-            bool risposta = Equazioni.InDeterminata(a, b);
-            Assert.AreEqual(risposta_aspettata, risposta);
-        }
     }
 }
